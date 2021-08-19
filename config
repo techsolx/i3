@@ -154,7 +154,7 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3status
     font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-    font pango:DejaVu Sans Mono 10
+    font pango:DejaVu Sans Mono 9
 }
 
 # custom window stuff 
