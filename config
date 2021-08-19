@@ -160,6 +160,10 @@ bar {
 # custom window stuff 
 new_window pixel 0
 
+# setting window sizes for diaglog boxes
+floating_minimum_size 450 x 450
+floating_maximum_size 1500 x 1500
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
