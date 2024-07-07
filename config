@@ -22,7 +22,7 @@ font pango:DejaVu Sans Mono 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -183,4 +183,5 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # open windows in the center
-for_window [class=".*"] [floating] move absolute position center
+# for_window [class=".*"] [floating] move absolute position center # does not appear to work.
+for_window [floating] move position center
