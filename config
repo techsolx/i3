@@ -6,17 +6,13 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 10
-font pango:DejaVu Sans Mono 10
+#font pango:Inconsolata 8
+#font pango:DejaVu Sans Mono 10
+#font pango:Noto Sans Mono 10
+#font pango:monospace 10
+font pango:Inconsolata 8, DejaVu Sans Mono 10, Noto Sans Mono 10, monospace 10
 #font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
 #font pango:Terminus 11px #terminus going away, too old school
-
-# Before i3 v4.8, we used to recommend this one as the default:
-# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# The font above is very space-efficient, that is, it looks good, sharp and
-# clear in small sizes. However, its unicode glyph coverage is limited, the old
-# X core fonts rendering does not support right-to-left and this being a bitmap
-# font, it doesn’t scale on retina/hidpi displays.
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -153,7 +149,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     status_command i3status
-    # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
     # font pango:DejaVu Sans Mono 9
     font pango:Inconsolata 8
 }
