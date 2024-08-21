@@ -10,7 +10,7 @@ set $mod Mod4
 #font pango:DejaVu Sans Mono 10
 #font pango:Noto Sans Mono 10
 #font pango:monospace 10
-font pango:Inconsolata 8, DejaVu Sans Mono 10, Noto Sans Mono 10, monospace 10
+font pango:Inconsolata 10, DejaVu Sans Mono 10, Noto Sans Mono 10, monospace 10
 #font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
 #font pango:Terminus 11px #terminus going away, too old school
 
@@ -149,8 +149,9 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     status_command i3status
-    # font pango:DejaVu Sans Mono 9
-    font pango:Inconsolata 8
+#   font pango:Noto Sans Mono 12
+    font pango:DejaVu Sans Mono 14
+#   font pango:Inconsolata 12
 }
 
 # custom window stuff 
