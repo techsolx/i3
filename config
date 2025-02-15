@@ -183,3 +183,11 @@ bindsym XF86AudioPrev exec playerctl previous
 # open windows in the center
 # for_window [class=".*"] [floating] move absolute position center # does not appear to work.
 for_window [floating] move position center
+
+# https://samiulsblog.com/screenshot-on-i3wm
+# Set a custom variable to invoke our script. Makes it easy to refer.
+set $i3screenshot sh $HOME/.config/i3/scripts/screenshot.sh
+
+bindsym Print exec --no-startup-id $i3screenshot full
+bindsym Shift+Print exec --no-startup-id $i3screenshot select
+bindsym $mod+Print exec --no-startup-id $i3screenshot window
