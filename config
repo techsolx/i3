@@ -150,7 +150,7 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3status
 #   font pango:Noto Sans Mono 12
-    font pango:DejaVu Sans Mono 14
+    font pango:DejaVu Sans Mono 12
 #   font pango:Inconsolata 12
 }
 
