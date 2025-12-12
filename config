@@ -149,6 +149,9 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     status_command i3status
+    mode dock
+#    hidden_state hide
+    modifier Mod4
 #   font pango:Noto Sans Mono 12
     font pango:DejaVu Sans Mono 12
 #   font pango:Inconsolata 12
